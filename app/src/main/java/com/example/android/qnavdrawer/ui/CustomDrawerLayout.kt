@@ -19,8 +19,7 @@ class CustomDrawerLayout : DrawerLayout {
 
         @SuppressLint("DrawAllocation")
         val rectangle = Rect(0, 0, 100, b)
-        val rectangles = listOf(rectangle)
-        systemGestureExclusionRects = rectangles
+        systemGestureExclusionRects = listOf(rectangle)
 
     }
 
